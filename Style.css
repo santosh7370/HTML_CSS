@@ -1,0 +1,115 @@
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+	background-color: black;
+	color: aliceblue;
+	border-color: chartreuse;
+	
+}
+h1 {
+	background: #b43a3a;
+	background: linear-gradient(90deg, rgba(180, 58, 58, 1) 5%, rgba(89, 253, 29, 1) 50%, rgba(252, 100, 69, 1) 96%);
+	background-clip: text;
+	color: transparent;
+	font-size: 50px;
+}
+h1:hover{
+	text-align: center;
+
+}
+
+fieldset{
+	width: 50%;
+}
+
+fieldset {
+  border: 5px solid rgb(236, 233, 11);
+  border-radius: 25px;
+}
+fieldset:hover{
+	box-shadow: 10px 15px 15px rgb(255, 0, 140);
+}
+p{
+	display: none;
+}
+input:hover{
+	border-color: #0b07f7;
+	border-radius: 5px;
+	border-width: 3px;
+	box-shadow: 5px 10px 10px rgb(0, 255, 115);
+}
+input:hover+p{
+	display: inline;
+	border-color: #0b07f7;
+	border-radius: 5px;
+	border-width: 3px;
+	box-shadow: 5px 10px 10px rgb(255, 0, 0);
+	color: rgb(208, 255, 0);
+}
+input:focus{
+	background-color: rgb(245, 8, 8);
+}
+select {
+	background-color: darkseagreen;
+}
+
+input[type="reset"]{
+	border: dotted;
+	border-color: rgb(255, 0, 0);
+	border-radius: 10px;
+	border-width: 3px;
+}
+input[type="submit"]{
+	border: solid;
+	border-color: rgb(98, 0, 255);
+	border-radius: 15px;
+}
+input:required{
+	border: solid;
+	border-color: #e7f707;
+	border-width: 3px;
+}
+legend{
+	background: #b43a3a;
+	background: linear-gradient(90deg, rgb(207, 204, 0) 5%, rgb(253, 29, 29) 50%, rgb(96, 69, 252) 96%);
+	background-clip: text;
+	color: transparent;
+	font-weight: bold;
+	font-size: 25px;
+}
+input[type="radio"]:checked+label {
+  color: rgb(246, 69, 4);
+}
+
+input[type="radio"]:checked{
+	width: 20px;
+	height: 20px;
+}
+textarea:focus{
+	background-color: cyan;
+}
+input:read-only{
+	background-color: rgb(205, 241, 0);
+  color: black;
+  font-weight: 900;
+}
+img {
+  display: none;
+}
+input[type="email"]:focus:valid~img.valid {
+  display: inline;
+  width: 18px;
+  height: 18px;
+}
+
+input[type="email"]:focus:invalid~img.invalid {
+  display: inline;
+  width: 18px;
+  height: 18px;
+}
+label{
+	color: rgb(255, 0, 128);
+	font-size: 20px;
+	font-weight: 20px;
+}
